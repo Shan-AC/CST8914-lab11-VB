@@ -6,7 +6,13 @@
   width: 20em;
 }
 
-.accordion h3 {
+.accordion {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.accordion h2 {
   margin: 0;
   padding: 0;
 }
@@ -15,7 +21,7 @@
   border-color: hsl(216deg 94% 43%);
 }
 
-.accordion:focus-within h3 {
+.accordion:focus-within h2 {
   background-color: hsl(0deg 0% 97%);
 }
 
@@ -120,4 +126,4 @@ input {
   display: block;
   font-size: inherit;
   padding: 0.3em 0.5em;
-}v
+}
